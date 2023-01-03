@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Lolifmaster",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.5.4"
+  }
+}
