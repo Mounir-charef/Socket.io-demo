@@ -10,4 +10,4 @@ npm install
 npm start
 ```
 
-Open the `app/index.html` file in a browser. 
+Open the `app/index.html` file in a browser.

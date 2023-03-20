@@ -9,6 +9,7 @@ socket.on('message', text => {
 });
 
 document.querySelector('button').onclick = () => {
+    if(input.value === '') return alert('Please enter a message');
     const text = input.value
     input.value = ''
     socket.emit('message', text)
